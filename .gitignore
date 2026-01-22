@@ -1,0 +1,56 @@
+# Laravel / PHP
+/vendor/
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+/storage/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime / cache / sessions / views
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/framework/testing/
+/bootstrap/cache/*
+
+# Keep these
+!/bootstrap/cache/.gitignore
+
+# Laravel storage (optional: keep empty folders tracked if you use .gitignore inside storage)
+# /storage/app/public/  (通常不忽略，因为 public/storage 是 symlink)
+# But ignore generated public storage symlink target if you prefer:
+# public/storage
+
+# Node / Frontend
+/node_modules/
+/public/build
+
+# IDE / OS
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.swp
+*.swo
+*.tmp
+
+# Coverage / reports
+/coverage/
+*.lcov
+
+# Docker / local tooling (optional)
+docker-compose.override.yml
